@@ -41,23 +41,27 @@ The following **additional** features are implemented:
 https://recordit.co/fiqvrRufLX
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![https://recordit.co/fiqvrRufLX](gif1-link-here)
 
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 - https://cssgradient.io/
+- - Helped me make the nice looking gradients on the button
 - https://www.w3schools.com/css/
+- - Lots of great CSS tutorials for specific styling
 - https://fonts.google.com/
+- - I made the font different (love the Poppins font)
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)  
+* I do have a decent amount of frontend web development experience, and started my web development journey using vanilla CSS, HTML, and JavaScript so this coding challenge felt very familiar to me. However, I have been using other frameworks like React which do a lot of abstraction on your behalf, and thus it has lead me to take organization and code clarity for granted.  
+* Working on this submission and using vanilla HTML/CSS/JS immediately reminded me of the importance of code clarity and organization. My style sheet and script.js was originally a huge mess of copy-pasted code and styling and groups, and looked horrible, although it did technically compile and work.  
+* To solve this issue, I spent time to organize the code in a more intuitive and readable way, and also added comments in functions and variables to effectively organize my work, especially as it is going to be reviewed by someone else later. I grouped different types of variables together, as well as functions, and looking back, it has made an immense difference in the readability of my code.
 
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)  
+* I personally have experience with web development and using technologies like JS/CSS/HTML and some backend technologies, so I am most interested in the tech in the SITE program such as SQL, PostgreSQL, Heroku, D3.js, GraphQL, and Kafka (the backend technologies) and the role they play in an entire application. While I do have experience in backend, I've mostly used tools that abstract much of the work for you (i.e. AWS Lambda), and I have zero experience with concepts like relational databases, so I am excited to learn more about them.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-
-
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-Giving the user more customizability. i.e. the user can choose the number of buttons, number of rounds, number of mistakes, how fast the buttons light up for, how much faster the rounds become. Or, instead of giving this customizability to the user, I could implement multiple rounds that get harder as the user succeeds, or gets easier as they fail (i.e. if the user successfully completes 8 rounds, the next game will have 10 rounds that are a little faster).
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)  
+* Giving the user more customizability. i.e. the user can choose the number of buttons, number of rounds, number of mistakes, how fast the buttons light up for, how much faster the rounds become. Or, instead of giving this customizability to the user, I could implement multiple rounds that get harder as the user succeeds, or gets easier as they fail (i.e. if the user successfully completes 8 rounds, the next game will have 10 rounds that are a little faster).
 
 
 
