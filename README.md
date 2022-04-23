@@ -4,7 +4,7 @@
 
 Submitted by: **Ian Brash**
 
-Time spent: **2** hours spent in total
+Time spent: **2.5** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/noble-abstracted-motion
 
