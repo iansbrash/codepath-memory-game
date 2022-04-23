@@ -1,44 +1,44 @@
-/* a minimalist set of CSS resets */
-
+/* Glitch Boilerplate */
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-/* adjust typography defaults */
+/* Adjust margin and background color */
 body {
   margin: 1rem;
   line-height: 1.5;
   background-color: #fcfcfc;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+/* Adjust font for entire page */
+/* We're using an imported Poppins font */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
 }
 
-h1 {
-  /*   font-family: verdana, arial, sans-serif;  */
+
+/* Default text color is BLACK */
+h1, p {
   color: #000000;
 }
 
-p {
-  /*   font-family: verdana, arial, sans-serif;  */
-  color: #000000;
-}
-
+/* Info contains the mistakes and round counter */
+/* flex-direction: row makes them align horizontally */
 #info {
   margin-bottom: 10px;
   flex-direction: row;
 }
 
+/* We add this class to #info when we remove .hidden */
 .flex {
   display: flex;
 }
 
+/* Styles the sound buttons so they are sized equally and have a nice shadow */
 #gameButtonArea > button {
   padding: 10px;
   border-radius: 10px;
@@ -49,10 +49,12 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Makes the buttons align with the rest of the document, because of the margin: 10px on #gameButtonArea > button */
 #gameButtonArea {
   margin-left: -10px;
 }
 
+/* Styles the start/stop buttons */
 #startStopButtonsArea > button {
   border-radius: 5px;
   padding-left: 20px;
@@ -70,16 +72,20 @@ p {
   margin-bottom: 20px;
 }
 
+/* Instead of changing the color when a sound button is active, we change the opacity so it fades a little */
 #gameButtonArea > button:active,
 #gameButtonArea > button.lit
 {
   opacity: 50%;
 }
 
+/* This is how we hide elements */
 .hidden {
   display: none;
 }
 
+/* Each button has a different linear gradient for styling */
+/* START INDIVIDUAL BUTTON STYLING */
 #button1 {
   background: rgb(92, 246, 151);
   background: linear-gradient(
@@ -89,7 +95,6 @@ p {
   );
 }
 
-
 #button2 {
   background: rgb(92, 181, 246);
   background: linear-gradient(
@@ -98,8 +103,6 @@ p {
     rgba(34, 11, 245, 1) 100%
   );
 }
-
-
 
 #button3 {
   background: rgb(246, 92, 117);
@@ -119,7 +122,6 @@ p {
   );
 }
 
-
 #button5 {
   background: rgb(161, 92, 246);
   background: linear-gradient(
@@ -130,9 +132,14 @@ p {
 }
 
 #button6 {
-  background: turquoise;
+  background: rgb(92,246,112);
+  background: linear-gradient(90deg, rgba(92,246,112,1) 0%, rgba(145,245,11,1) 100%);
 }
 
+/* STOP INDIVIDUAL BUTTON STYLING */
+
+
+/* START FONTS */
 /* devanagari */
 @font-face {
   font-family: "Poppins";
@@ -269,10 +276,4 @@ p {
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: Poppins, sans-serif;
-}
+/* STOP FONTS */
